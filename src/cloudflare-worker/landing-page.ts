@@ -3,7 +3,7 @@
  */
 
 export function landingPage() {
-  const o = "random".trim();
+  const o = "https://cloudinary-test-mcp-server.kanwar-a2e.workers.dev".trim();
 
   const mcpConfig = {
     "mcpServers": {
@@ -248,7 +248,7 @@ export function landingPage() {
             </div>
             <div class="method-content" id="cursor-content">
                 <div class="method-description">One-click installation for Cursor users</div>
-                <a href="https://cursor.com/install-mcp?name=SDK&config=eyJtY3BTZXJ2ZXJzIjp7IlNESyI6eyJ0eXBlIjoibWNwIiwidXJsIjoicmFuZG9tL21jcCIsImhlYWRlcnMiOnsieC1jbG91ZGluYXJ5LWF1dGgiOiIke01DUF9DTE9VRElOQVJZX0FVVEh9IiwieC1vYXV0aDIiOiIke01DUF9PQVVUSDJ9In19fX0=">
+                <a href="https://cursor.com/install-mcp?name=SDK&config=eyJtY3BTZXJ2ZXJzIjp7IlNESyI6eyJ0eXBlIjoibWNwIiwidXJsIjoiaHR0cHM6Ly9jbG91ZGluYXJ5LXRlc3QtbWNwLXNlcnZlci5rYW53YXItYTJlLndvcmtlcnMuZGV2L21jcCIsImhlYWRlcnMiOnsieC1jbG91ZGluYXJ5LWF1dGgiOiIke01DUF9DTE9VRElOQVJZX0FVVEh9IiwieC1vYXV0aDIiOiIke01DUF9PQVVUSDJ9In19fX0=">
     <img
         src="https://cursor.com/deeplink/mcp-install-dark.svg"
         alt="Add SDK MCP server to Cursor"

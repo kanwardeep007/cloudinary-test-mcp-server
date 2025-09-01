@@ -36,7 +36,7 @@ Model Context Protocol (MCP) Server for the *mcp* API.
 > [!TIP]
 > To finish publishing your MCP Server to npm and others you must [run your first generation action](https://www.speakeasy.com/docs/github-setup#step-by-step-guide).
 
-Deployed at random
+Deployed at https://cloudinary-test-mcp-server.kanwar-a2e.workers.dev
 <details>
 <summary>DXT (Desktop Extension)</summary>
 
@@ -54,7 +54,7 @@ The DXT package includes the MCP server and all necessary configuration. Once in
 <details>
 <summary>Cursor</summary>
 
-[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=SDK&config=eyJtY3BTZXJ2ZXJzIjp7IlNESyI6eyJ0eXBlIjoibWNwIiwidXJsIjoicmFuZG9tL21jcCIsImhlYWRlcnMiOnsieC1jbG91ZGluYXJ5LWF1dGgiOiIke01DUF9DTE9VRElOQVJZX0FVVEh9IiwieC1vYXV0aDIiOiIke01DUF9PQVVUSDJ9In19fX0=)
+[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=SDK&config=eyJtY3BTZXJ2ZXJzIjp7IlNESyI6eyJ0eXBlIjoibWNwIiwidXJsIjoiaHR0cHM6Ly9jbG91ZGluYXJ5LXRlc3QtbWNwLXNlcnZlci5rYW53YXItYTJlLndvcmtlcnMuZGV2L21jcCIsImhlYWRlcnMiOnsieC1jbG91ZGluYXJ5LWF1dGgiOiIke01DUF9DTE9VRElOQVJZX0FVVEh9IiwieC1vYXV0aDIiOiIke01DUF9PQVVUSDJ9In19fX0=)
 
 Or manually:
 
@@ -68,7 +68,7 @@ Or manually:
   "mcpServers": {
     "SDK": {
       "type": "mcp",
-      "url": "random/mcp",
+      "url": "https://cloudinary-test-mcp-server.kanwar-a2e.workers.dev/mcp",
       "headers": {
         "x-cloudinary-auth": "${MCP_CLOUDINARY_AUTH}",
         "x-oauth2": "${MCP_OAUTH2}"
@@ -84,7 +84,7 @@ Or manually:
 <summary>Claude Code CLI</summary>
 
 ```bash
-claude mcp add --transport sse SDK random/sse --header "x-cloudinary-auth: ..." --header "x-oauth2: ..."
+claude mcp add --transport sse SDK https://cloudinary-test-mcp-server.kanwar-a2e.workers.dev/sse --header "x-cloudinary-auth: ..." --header "x-oauth2: ..."
 ```
 
 </details>
@@ -103,7 +103,7 @@ Refer to [Official Windsurf documentation](https://docs.windsurf.com/windsurf/ca
   "mcpServers": {
     "SDK": {
       "type": "mcp",
-      "url": "random/mcp",
+      "url": "https://cloudinary-test-mcp-server.kanwar-a2e.workers.dev/mcp",
       "headers": {
         "x-cloudinary-auth": "${MCP_CLOUDINARY_AUTH}",
         "x-oauth2": "${MCP_OAUTH2}"
@@ -126,7 +126,7 @@ Refer to [Official VS Code documentation](https://code.visualstudio.com/api/exte
   "servers": {
     "SDK": {
       "type": "mcp",
-      "url": "random/mcp",
+      "url": "https://cloudinary-test-mcp-server.kanwar-a2e.workers.dev/mcp",
       "headers": {
         "x-cloudinary-auth": "${env:MCP_CLOUDINARY_AUTH}",
         "x-oauth2": "${env:MCP_OAUTH2}"
