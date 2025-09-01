@@ -1,5 +1,5 @@
 
-name = "mcp-mcp-server"
+name = "cloudinary-test-mcp-server"
 main = "src/cloudflare-worker/cloudflare-worker.ts"
 compatibility_date = "2025-07-15"
 
