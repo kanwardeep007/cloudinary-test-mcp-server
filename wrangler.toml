@@ -14,7 +14,7 @@ class_name = "McpMCP"
 # Durable Object migration
 [[migrations]]
 tag = "v1"
-new_classes = ["McpMCP"]
+new_sqlite_classes = ["McpMCP"]
 
 # Static assets configuration
 [assets]
