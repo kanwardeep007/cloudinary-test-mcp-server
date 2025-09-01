@@ -30,7 +30,7 @@ mcp-typescript:
   author: Speakeasy
   baseErrorName: SDKError
   cloudflareEnabled: true
-  cloudflareURL: random
+  cloudflareURL: https://cloudinary-test-mcp-server.kanwar-a2e.workers.dev
   defaultErrorName: SDKDefaultError
   inputModelSuffix: input
   outputModelSuffix: output
